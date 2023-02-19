@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
-<!--Stylesheet-->
-<link rel="stylesheet" href="style.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--JS script-->
+    <script src="script.js" defer></script>
 </head>
+
 <body>
+    <!--Title-->
+    <div class="title">
+    <h1>Quiz</h1>
+    </div>
     <div class="quiz-container">
         <!--Question 1-->
         <div class="question-container">
@@ -53,6 +61,7 @@
                 <input type="radio" name="answer" id="answer12" value="12">
                 <label for="answer12">It is a way of accessing, storing and retrieving data.</label><br>
             </div>
+            </div>
             <!--Question 4-->
             <div class="question-container">
                 <p class="question">What are the two ways binary search can be implemented?</p>
@@ -66,10 +75,22 @@
                     <input type="radio" name="answer" id="answer16" value="16">
                     <label for="answer16">There are no ways binary search can be implemented</label><br>
                 </div>
+                </div>
+                <!--Question 5-->
+                <div class="question-container">
+                    <p class="question">True or false? Linear search is a sequential searching algorithm where we start
+                        from one end and check every element of the list until the desired element is found</p>
+                    <div class="options">
+                        <input type="radio" name="answer" id="answer17" value="17">
+                        <label for="answer17">True</label><br>
+                        <input type="radio" name="answer" id="answer18" value="18">
+                        <label for="answer18">False</label><br>
+                    </div>
 
-            </div>
+                </div>
 
             </div>
 
 </body>
+
 </html>
