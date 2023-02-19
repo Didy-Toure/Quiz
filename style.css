@@ -30,3 +30,23 @@ body {
     text-align: center;
     margin: 5px;
 }
+
+.next-button {
+    cursor: pointer;
+    border: 3px black solid;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    color: black;
+    
+    
+
+
+
+    
+
+
+    
+
+}

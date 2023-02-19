@@ -1,7 +1,19 @@
 const questionContainers = document.querySelectorAll('.question-container');
-const nextButton = document.querySelector('#next-button');
+const nextButton = document.querySelector('.next-button');
 let currentQuestionIndex = 0;
 let score = 0;
+
+const nextButtons = document.querySelectorAll('.next-button');
+
+nextButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    // Move on to the next question
+    showQuestion(index + 1);
+  });
+});
+
+
+
 
 hideAllQuestions();
 showQuestion(currentQuestionIndex);
@@ -42,6 +54,7 @@ questionContainers.forEach(container => {
     });
   });
 });
+
 
 nextButton.addEventListener('click', () => {
   showNextQuestion();
